@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bernie Brick Breaker</title>
+  </head>
+  <body>
+    <h1>Bernie Brick Breaker</h1>
+
+    <button id="rules-btn" class="btn rules-btn">Show Rules</button>
+    <div class="rules" id="rules">
+      <h2>How To Play:</h2>
+      <p>
+        Use your right and left keys or the right and left buttons to move
+        bernie to bounce the ball up and break the blocks
+      </p>
+      <p>If you miss the ball, your score and the blocks will reset</p>
+      <img
+        src="images/bernie.jpg"
+        height="100"
+        id="bernie"
+        style="display: none"
+      />
+      <button id="close-btn" class="btn">Close</button>
+    </div>
+    <div id="canvas-container">
+      <canvas id="canvas" width="800" height="600"></canvas>
+    </div>
+
+    <div id="control-buttons">
+      <div id="button-container">
+        <button id="left-btn" class="btn">Left</button>
+
+        <button id="right-btn" class="btn">Right</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
