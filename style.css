@@ -2,6 +2,9 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100vh;
+}
 body {
   background-color: #1c3c81;
   display: flex;
@@ -9,6 +12,7 @@ body {
   align-items: center;
   justify-content: center;
   font-family: Arial, Helvetica, sans-serif;
+
   min-height: 100vh;
   min-width: 100vw;
   margin: 0;
