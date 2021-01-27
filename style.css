@@ -15,7 +15,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 
   min-height: 100vh;
-  min-width: 100vw;
+  min-width: 100%;
   margin: 0;
   position: absolute;
 }
@@ -92,12 +92,14 @@ h1 {
   width: 100%;
 }
 #left-btn {
-  margin-right: 40px;
+  margin-right: 50px;
   padding: 80px;
   font-size: 48px;
+  margin-bottom: 50px;
 }
 #right-btn {
-  margin-left: 40px;
+  margin-left: 50px;
   padding: 80px;
   font-size: 48px;
+  margin-bottom: 50px;
 }
