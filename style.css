@@ -4,6 +4,7 @@
 
 html {
   height: 100vh;
+  min-width: 800px;
 }
 body {
   background-color: #1c3c81;
